@@ -8,6 +8,11 @@ Public Class Form1
         SetRoundButton(Button3)
     End Sub
 
+
+
+
+
+
     ' Method to make the button have rounded corners
     Private Sub SetRoundButton(button As Button)
         ' Set the flat style
@@ -28,7 +33,7 @@ Public Class Form1
         Label2.Cursor = Cursors.Hand
     End Sub
 
-    Private Sub Label3_MouseEnter(sender As Object, e As EventArgs) Handles Label3.MouseEnter
+    Private Sub Label3_MouseEnter(sender As Object, e As EventArgs) Handles Label3.MouseEnter, Sales.MouseEnter
         ' Change cursor to hand when mouse enters label
         Label3.Cursor = Cursors.Hand
     End Sub
@@ -92,11 +97,6 @@ Public Class Form1
 
     End Sub
 
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-    End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
     End Sub
@@ -125,11 +125,11 @@ Public Class Form1
         Me.Close()
     End Sub
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
-        Dim newForm As New Form1()
+    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click, Sales.Click
+        Dim foodIngredients As New Food_Ingredients()
 
         ' Show the new form
-        newForm.Show()
+        foodIngredients.Show()
 
         ' Close the current form
         Me.Close()
@@ -174,4 +174,11 @@ Public Class Form1
         ' Close the current form
         Me.Close()
     End Sub
+
+    Private Sub SalesBtn_Click(sender As Object, e As EventArgs)
+        Dim salesForm As New Sales
+
+        salesForm.Show()
+    End Sub
+
 End Class

@@ -1,0 +1,12 @@
+C:\Users\Edward\source\repos\supersystem\supersystem\bin\Debug\supersystem.exe.config
+C:\Users\Edward\source\repos\supersystem\supersystem\bin\Debug\supersystem.exe
+C:\Users\Edward\source\repos\supersystem\supersystem\bin\Debug\supersystem.pdb
+C:\Users\Edward\source\repos\supersystem\supersystem\bin\Debug\supersystem.xml
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.vbproj.AssemblyReference.cache
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.Form1.resources
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.Resources.resources
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.vbproj.GenerateResource.cache
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.vbproj.CoreCompileInputs.cache
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.exe
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.xml
+C:\Users\Edward\source\repos\supersystem\supersystem\obj\Debug\supersystem.pdb

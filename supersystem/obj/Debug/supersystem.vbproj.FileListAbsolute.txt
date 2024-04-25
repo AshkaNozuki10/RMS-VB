@@ -38,3 +38,10 @@ C:\Users\QCU\Desktop\RMS-VB\supersystem\bin\Debug\supersystem.exe.config
 C:\Users\QCU\Desktop\RMS-VB\supersystem\bin\Debug\supersystem.exe
 C:\Users\QCU\Desktop\RMS-VB\supersystem\bin\Debug\supersystem.pdb
 C:\Users\QCU\Desktop\RMS-VB\supersystem\bin\Debug\supersystem.xml
+C:\Users\QCU\Desktop\RMS-VB\supersystem\bin\Debug\System.Data.SqlClient.dll
+C:\Users\QCU\Desktop\RMS-VB\supersystem\bin\Debug\System.Data.SqlClient.xml
+C:\Users\QCU\Desktop\RMS-VB\supersystem\obj\Debug\supersystem.vbproj.CopyComplete
+C:\Users\QCU\Desktop\RMS-VB\supersystem\obj\Debug\supersystem.Dashboard.resources
+C:\Users\QCU\Desktop\RMS-VB\supersystem\obj\Debug\supersystem.Food_Ingredients.resources
+C:\Users\QCU\Desktop\RMS-VB\supersystem\obj\Debug\supersystem.POSVIew.resources
+C:\Users\QCU\Desktop\RMS-VB\supersystem\obj\Debug\supersystem.Supersystem.resources

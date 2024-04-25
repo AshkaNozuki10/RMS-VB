@@ -76,15 +76,26 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dbconn.vb" />
-    <Compile Include="Form1.vb">
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
+    <Compile Include="dbconn.vb" />
+    <Compile Include="POS\POSVIew.Designer.vb">
+      <DependentUpon>POSVIew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="POS\POSVIew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUPERSYSTEM\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SUPERSYSTEM\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Import.vb" />
     <Compile Include="LOG\Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -121,7 +132,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\Food_Ingredients.resx">
+      <DependentUpon>Food_Ingredients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS\POSVIew.resx">
+      <DependentUpon>POSVIew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUPERSYSTEM\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LOG\Login.resx">
@@ -150,8 +170,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SUPERSYSTEM\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -2,14 +2,15 @@
 
 Public Class Login
 
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles closelbl.Click
-
+    'Close login window
+    Private Sub closelbl_Click(sender As Object, e As EventArgs) Handles closelbl.Click
+        Application.Exit()
     End Sub
 
+    'Login lbl close UI color 
     Private Sub closelbl_MouseHover(sender As Object, e As EventArgs) Handles closelbl.MouseHover
         closelbl.ForeColor = Color.White
         closelbl.BackColor = Color.Red
-
     End Sub
 
     Private Sub closelbl_MouseLeave(sender As Object, e As EventArgs) Handles closelbl.MouseLeave
@@ -17,13 +18,15 @@ Public Class Login
         closelbl.BackColor = Color.White
     End Sub
 
+    'Login user access
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        Dim da As SqlDataAdapter
 
-        'Dim command As New SqlCommand("Select usertype from UserAccount where username=@Username and password=@Password", conn)
-        Dim command As New SqlCommand("Select usertype from UserAccount where username='" & txtUser.Text & "' and password='" & txtPass.Text & "'", conn)
-        'command.Parameters.AddWithValue("@Username", txtUser.Text)
-        'command.Parameters.AddWithValue("@Password", txtPass.Text)
+        Dim command As New SqlCommand("Select usertype from UserAccount where username=@Username and password=@Password", conn)
+        'Dim command As New SqlCommand("Select usertype from UserAccount where username='" & txtUser.Text & "' and password='" & txtPass.Text & "'", conn)
+        command.Parameters.AddWithValue("@Username", txtUser.Text)
+        command.Parameters.AddWithValue("@Password", txtPass.Text)
+
+        'opening db connection
         connect()
 
         Dim usertype As String = command.ExecuteScalar()
@@ -57,12 +60,11 @@ Public Class Login
                 MessageBox.Show("Invalid username or password.")
             End If
         Catch ex As Exception
-
+            ' Log the exception or show a message to the user
+            MessageBox.Show("An error occurred: " & ex.Message)
         End Try
 
-        conn.Close()
-
-
+        'closing db connection
+        disconnect()
     End Sub
-
 End Class

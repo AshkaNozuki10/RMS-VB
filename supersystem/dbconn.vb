@@ -11,4 +11,12 @@ Module dbconn
         End If
         Return True
     End Function
+
+    Function disconnect()
+        If conn.State = ConnectionState.Open Then
+            conn.Close()
+        End If
+        Return True
+    End Function
+
 End Module

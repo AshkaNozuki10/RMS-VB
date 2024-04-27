@@ -34,13 +34,13 @@ Partial Class Form1
         Panel1 = New Panel()
         DnT = New Button()
         qwe = New Panel()
+        Label9 = New Label()
+        Label1 = New Label()
         Button8 = New Button()
         Button7 = New Button()
         Label13 = New Label()
         Label12 = New Label()
         Label11 = New Label()
-        Label10 = New Label()
-        Label9 = New Label()
         Label8 = New Label()
         Label7 = New Label()
         Label6 = New Label()
@@ -48,7 +48,6 @@ Partial Class Form1
         Label4 = New Label()
         Label3 = New Label()
         Label2 = New Label()
-        Label1 = New Label()
         qweqwe.SuspendLayout()
         qwe.SuspendLayout()
         SuspendLayout()
@@ -66,7 +65,7 @@ Partial Class Form1
         qweqwe.Dock = DockStyle.Top
         qweqwe.Location = New Point(0, 0)
         qweqwe.Name = "qweqwe"
-        qweqwe.Size = New Size(946, 45)
+        qweqwe.Size = New Size(1080, 45)
         qweqwe.TabIndex = 1
         ' 
         ' Button6
@@ -75,9 +74,9 @@ Partial Class Form1
         Button6.FlatAppearance.BorderSize = 0
         Button6.FlatStyle = FlatStyle.Flat
         Button6.Font = New Font("Ebrima", 14.25F)
-        Button6.Location = New Point(727, 0)
+        Button6.Location = New Point(859, 0)
         Button6.Name = "Button6"
-        Button6.Size = New Size(150, 45)
+        Button6.Size = New Size(175, 45)
         Button6.TabIndex = 7
         Button6.Text = "Drinks"
         Button6.UseVisualStyleBackColor = False
@@ -88,9 +87,9 @@ Partial Class Form1
         Button5.FlatAppearance.BorderSize = 0
         Button5.FlatStyle = FlatStyle.Flat
         Button5.Font = New Font("Ebrima", 14.25F)
-        Button5.Location = New Point(587, 0)
+        Button5.Location = New Point(687, 0)
         Button5.Name = "Button5"
-        Button5.Size = New Size(150, 45)
+        Button5.Size = New Size(175, 45)
         Button5.TabIndex = 5
         Button5.Text = "Speacial"
         Button5.UseVisualStyleBackColor = False
@@ -101,9 +100,9 @@ Partial Class Form1
         Button3.FlatAppearance.BorderSize = 0
         Button3.FlatStyle = FlatStyle.Flat
         Button3.Font = New Font("Ebrima", 14.25F)
-        Button3.Location = New Point(293, 0)
+        Button3.Location = New Point(344, 0)
         Button3.Name = "Button3"
-        Button3.Size = New Size(150, 45)
+        Button3.Size = New Size(175, 45)
         Button3.TabIndex = 4
         Button3.Text = "Veggie"
         Button3.UseVisualStyleBackColor = False
@@ -114,9 +113,9 @@ Partial Class Form1
         Button4.FlatAppearance.BorderSize = 0
         Button4.FlatStyle = FlatStyle.Flat
         Button4.Font = New Font("Ebrima", 14.25F)
-        Button4.Location = New Point(440, 0)
+        Button4.Location = New Point(516, 0)
         Button4.Name = "Button4"
-        Button4.Size = New Size(150, 45)
+        Button4.Size = New Size(175, 45)
         Button4.TabIndex = 6
         Button4.Text = "Seafood"
         Button4.UseVisualStyleBackColor = False
@@ -124,12 +123,13 @@ Partial Class Form1
         ' btnClose
         ' 
         btnClose.BackColor = Color.Transparent
+        btnClose.FlatAppearance.BorderSize = 0
         btnClose.FlatStyle = FlatStyle.Flat
         btnClose.Font = New Font("Verdana", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         btnClose.ForeColor = Color.Black
-        btnClose.Location = New Point(883, 0)
+        btnClose.Location = New Point(1017, -2)
         btnClose.Name = "btnClose"
-        btnClose.Size = New Size(63, 45)
+        btnClose.Size = New Size(63, 47)
         btnClose.TabIndex = 6
         btnClose.Text = "X"
         btnClose.UseVisualStyleBackColor = False
@@ -142,7 +142,7 @@ Partial Class Form1
         Button1.Font = New Font("Ebrima", 14.25F)
         Button1.Location = New Point(0, 0)
         Button1.Name = "Button1"
-        Button1.Size = New Size(150, 45)
+        Button1.Size = New Size(175, 45)
         Button1.TabIndex = 2
         Button1.Text = "Featured"
         Button1.UseVisualStyleBackColor = False
@@ -153,9 +153,9 @@ Partial Class Form1
         Button2.FlatAppearance.BorderSize = 0
         Button2.FlatStyle = FlatStyle.Flat
         Button2.Font = New Font("Ebrima", 14.25F)
-        Button2.Location = New Point(147, 0)
+        Button2.Location = New Point(172, 0)
         Button2.Name = "Button2"
-        Button2.Size = New Size(150, 45)
+        Button2.Size = New Size(175, 45)
         Button2.TabIndex = 3
         Button2.Text = "Meat"
         Button2.UseVisualStyleBackColor = False
@@ -163,9 +163,9 @@ Partial Class Form1
         ' Panel1
         ' 
         Panel1.Dock = DockStyle.Fill
-        Panel1.Location = New Point(232, 45)
+        Panel1.Location = New Point(275, 45)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(714, 527)
+        Panel1.Size = New Size(805, 675)
         Panel1.TabIndex = 5
         ' 
         ' DnT
@@ -173,7 +173,7 @@ Partial Class Form1
         DnT.FlatAppearance.BorderSize = 0
         DnT.FlatStyle = FlatStyle.Flat
         DnT.Image = CType(resources.GetObject("DnT.Image"), Image)
-        DnT.Location = New Point(203, 68)
+        DnT.Location = New Point(12, 94)
         DnT.Name = "DnT"
         DnT.Size = New Size(29, 23)
         DnT.TabIndex = 0
@@ -182,13 +182,13 @@ Partial Class Form1
         ' qwe
         ' 
         qwe.BackColor = Color.Gray
+        qwe.Controls.Add(Label9)
+        qwe.Controls.Add(Label1)
         qwe.Controls.Add(Button8)
         qwe.Controls.Add(Button7)
         qwe.Controls.Add(Label13)
         qwe.Controls.Add(Label12)
         qwe.Controls.Add(Label11)
-        qwe.Controls.Add(Label10)
-        qwe.Controls.Add(Label9)
         qwe.Controls.Add(Label8)
         qwe.Controls.Add(Label7)
         qwe.Controls.Add(Label6)
@@ -197,18 +197,35 @@ Partial Class Form1
         qwe.Controls.Add(Label4)
         qwe.Controls.Add(Label3)
         qwe.Controls.Add(Label2)
-        qwe.Controls.Add(Label1)
         qwe.Dock = DockStyle.Left
         qwe.Location = New Point(0, 45)
         qwe.Name = "qwe"
-        qwe.Size = New Size(232, 527)
+        qwe.Size = New Size(275, 675)
         qwe.TabIndex = 0
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Location = New Point(-2, 120)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(277, 15)
+        Label9.TabIndex = 13
+        Label9.Text = "______________________________________________________"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(0, 407)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(277, 15)
+        Label1.TabIndex = 12
+        Label1.Text = "______________________________________________________"
         ' 
         ' Button8
         ' 
         Button8.FlatStyle = FlatStyle.Flat
         Button8.Font = New Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button8.Location = New Point(125, 458)
+        Button8.Location = New Point(125, 621)
         Button8.Name = "Button8"
         Button8.Size = New Size(75, 33)
         Button8.TabIndex = 11
@@ -219,7 +236,7 @@ Partial Class Form1
         ' 
         Button7.FlatStyle = FlatStyle.Flat
         Button7.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button7.Location = New Point(21, 458)
+        Button7.Location = New Point(21, 621)
         Button7.Name = "Button7"
         Button7.Size = New Size(75, 33)
         Button7.TabIndex = 0
@@ -230,7 +247,7 @@ Partial Class Form1
         ' 
         Label13.AutoSize = True
         Label13.Font = New Font("Ebrima", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label13.Location = New Point(12, 395)
+        Label13.Location = New Point(21, 549)
         Label13.Name = "Label13"
         Label13.Size = New Size(68, 21)
         Label13.TabIndex = 10
@@ -240,7 +257,7 @@ Partial Class Form1
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Ebrima", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label12.Location = New Point(12, 362)
+        Label12.Location = New Point(21, 516)
         Label12.Name = "Label12"
         Label12.Size = New Size(53, 21)
         Label12.TabIndex = 9
@@ -249,35 +266,17 @@ Partial Class Form1
         ' Label11
         ' 
         Label11.AutoSize = True
-        Label11.Location = New Point(0, 332)
+        Label11.Location = New Point(0, 479)
         Label11.Name = "Label11"
-        Label11.Size = New Size(232, 15)
+        Label11.Size = New Size(277, 15)
         Label11.TabIndex = 1
-        Label11.Text = "_____________________________________________"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Location = New Point(0, 94)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(232, 15)
-        Label10.TabIndex = 8
-        Label10.Text = "_____________________________________________"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Location = New Point(0, 267)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(232, 15)
-        Label9.TabIndex = 0
-        Label9.Text = "_____________________________________________"
+        Label11.Text = "______________________________________________________"
         ' 
         ' Label8
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Ebrima", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label8.Location = New Point(12, 319)
+        Label8.Location = New Point(12, 466)
         Label8.Name = "Label8"
         Label8.Size = New Size(55, 13)
         Label8.TabIndex = 7
@@ -287,7 +286,7 @@ Partial Class Form1
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Ebrima", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label7.Location = New Point(12, 292)
+        Label7.Location = New Point(12, 439)
         Label7.Name = "Label7"
         Label7.Size = New Size(56, 13)
         Label7.TabIndex = 6
@@ -297,7 +296,7 @@ Partial Class Form1
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Ebrima", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label6.Location = New Point(12, 109)
+        Label6.Location = New Point(12, 141)
         Label6.Name = "Label6"
         Label6.Size = New Size(51, 21)
         Label6.TabIndex = 5
@@ -315,48 +314,38 @@ Partial Class Form1
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Ebrima", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(12, 73)
+        Label4.Font = New Font("Ebrima", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label4.Location = New Point(12, 71)
         Label4.Name = "Label4"
-        Label4.Size = New Size(84, 13)
+        Label4.Size = New Size(114, 20)
         Label4.TabIndex = 3
         Label4.Text = "Date and Time: "
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Ebrima", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(99, 46)
+        Label3.Font = New Font("Ebrima", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(114, 25)
         Label3.Name = "Label3"
-        Label3.Size = New Size(118, 13)
+        Label3.Size = New Size(158, 20)
         Label3.TabIndex = 2
         Label3.Text = "Margaux Cimon Guese"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Ebrima", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(12, 46)
+        Label2.Font = New Font("Ebrima", 11.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(12, 25)
         Label2.Name = "Label2"
-        Label2.Size = New Size(81, 13)
+        Label2.Size = New Size(108, 20)
         Label2.TabIndex = 1
         Label2.Text = "Cashier Name: "
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Ebrima", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(12, 15)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(128, 17)
-        Label1.TabIndex = 0
-        Label1.Text = "CASHIER POS TOTAL"
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(946, 572)
+        ClientSize = New Size(1080, 720)
         Controls.Add(Panel1)
         Controls.Add(qwe)
         Controls.Add(qweqwe)
@@ -378,7 +367,6 @@ Partial Class Form1
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Label1 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
@@ -390,9 +378,9 @@ Partial Class Form1
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label1 As Label
 
 End Class

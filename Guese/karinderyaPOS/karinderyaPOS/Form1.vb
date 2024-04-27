@@ -35,7 +35,7 @@
     End Sub
 
     Private Sub DnT_Click(sender As Object, e As EventArgs) Handles DnT.Click
-        Dim D As Date = Now()
+        Dim D = Now
         Label4.Text += D
     End Sub
 

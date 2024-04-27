@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("karinderyaPOS"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90762b10d37e434542a1bf547688bd8eba4e9f94"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("karinderyaPOS"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("karinderyaPOS"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
